@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/giveBook"
+        android:text="Выдать книгу"
+        android:layout_margin="7dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/receiveBook"
+        android:text="Принять книгу"
+        android:layout_margin="7dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/badUsers"
+        android:text="Должники"
+        android:layout_margin="7dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/allBooks"
+        android:text="Список книг"
+        android:layout_margin="7dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/newUser"
+        android:text="Регистрация"
+        android:layout_margin="7dp"/>
+
+</LinearLayout>

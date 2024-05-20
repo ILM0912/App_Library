@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUser"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginBottom="100dp"
+        android:maxLength="100"
+        android:gravity="center"
+        android:text="Информация по новому читателю"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефона (+7...)"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:inputType="phone"
+        android:maxLength="12"
+        android:id="@+id/phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Паспортные данные"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/passport"
+        android:maxLength="11"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ДОБАВИТЬ"
+        android:id="@+id/add"
+        android:textSize="25dp"/>
+
+</LinearLayout>
